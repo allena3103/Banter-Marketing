@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-locker-room",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Gym opinions that will start a fight in the locker room",
+      "highlight": "locker room",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Cardio matters more than lifting.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Filming at the gym is fine if you're not in the way."
+    },
+    {
+      "role": "body",
+      "text": "Morning workouts are overrated.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "You don't need protein shakes."
+    },
+    {
+      "role": "body",
+      "text": "Group classes beat lifting alone.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Think you're right? Defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one made you put your weights down? 🏋️ Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#gym",
+    "#gymtok",
+    "#fitness",
+    "#debate",
+    "#banter"
+  ]
+}
