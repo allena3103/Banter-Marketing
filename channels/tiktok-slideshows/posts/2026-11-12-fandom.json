@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-fandom",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Fan opinions that will get you kicked out of the fandom",
+      "highlight": "kicked out of the fandom"
+    },
+    {
+      "role": "body",
+      "text": "Fan theories are more fun than the actual show.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Weekly episodes beat binge drops."
+    },
+    {
+      "role": "body",
+      "text": "Superhero movies all feel the same now.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Series finales almost always disappoint."
+    },
+    {
+      "role": "body",
+      "text": "Merch is a waste of money.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Defend your fandom live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would get you exiled from your fandom? 🍿 Defend it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#fandom",
+    "#tvshows",
+    "#movies",
+    "#debate",
+    "#banter"
+  ]
+}
