@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-sound-smarter",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 habits that make you sound smarter in any argument",
+      "highlight": "sound smarter",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Say \"I don't know\" when you don't know."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Use one strong example, not a list.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Slow down when you get to your main point."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Ask one question before you answer theirs.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Leave out the insults. Always."
+    },
+    {
+      "role": "cta",
+      "text": "Try all 5 in a live debate. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Save this before your next argument 📌 Try them live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#communication",
+    "#selfimprovement",
+    "#arguments",
+    "#debate",
+    "#banter"
+  ]
+}
