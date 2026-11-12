@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-actually-correct",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Hot takes that are actually correct",
+      "highlight": "actually correct"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Breakfast for dinner beats dinner for dinner.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Texting back fast is not a red flag.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Cereal is a soup.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Rewatching a show beats starting a new one.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Airport food prices are a scam we all just accept.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Think these are wrong? Prove it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one is the most correct? 🤔 Argue about it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#hottakes",
+    "#debate",
+    "#unpopularopinion",
+    "#agreeordisagree",
+    "#banter"
+  ]
+}
