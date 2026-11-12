@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-12-weekend-takes",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Weekend takes that split every friend group",
+      "highlight": "every friend group"
+    },
+    {
+      "role": "body",
+      "text": "Staying in beats going out.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Sunday is the worst day of the week.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Sleeping in past ten wastes the whole day.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Last-minute plans are the best plans.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Two-day weekends aren't enough.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Got weekend plans? Debate live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Homebody or out every weekend? 🛋️ Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#weekend",
+    "#relatable",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
