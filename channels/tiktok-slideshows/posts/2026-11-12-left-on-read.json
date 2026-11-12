@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-left-on-read",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Dating opinions that will get you left on read",
+      "highlight": "left on read",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Splitting the bill on a first date is fine.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Double texting is completely normal."
+    },
+    {
+      "role": "body",
+      "text": "Dating apps made dating worse.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Meeting the parents in the first month is a red flag."
+    },
+    {
+      "role": "body",
+      "text": "Being friends with your ex is a bad idea.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Defend your dating takes live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would you defend? 👀 Say it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#dating",
+    "#datingadvice",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
