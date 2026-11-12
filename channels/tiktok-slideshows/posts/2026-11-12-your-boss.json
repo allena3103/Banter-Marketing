@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-your-boss",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Career opinions your boss doesn't want you to hear",
+      "highlight": "your boss",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Job hopping is the fastest way to a raise.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Cover letters are a waste of time."
+    },
+    {
+      "role": "body",
+      "text": "Who you know matters more than what you know.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Nobody should answer work messages after hours."
+    },
+    {
+      "role": "body",
+      "text": "A degree matters less every year.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Clock out and debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would get you a talking-to from HR? 😅 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#career",
+    "#careertok",
+    "#worklife",
+    "#debate",
+    "#banter"
+  ]
+}
