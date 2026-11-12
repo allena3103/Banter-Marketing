@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-roommate-rules",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Roommate rules that end friendships",
+      "highlight": "end friendships",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Overnight guests need a roommate vote.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Shared groceries never work.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Every apartment needs a cleaning schedule.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Control of the thermostat should rotate weekly.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Living with your best friend is a mistake.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Settle it outside the group chat. Live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Send this to your roommate 👀 Then settle it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#roommates",
+    "#apartmentlife",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
