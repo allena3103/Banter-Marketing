@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-checkout-line",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Shopping opinions that start fights in the checkout line",
+      "highlight": "checkout line",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Self-checkout is worse than a cashier.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Buying used beats buying new.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Black Friday deals aren't real deals.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Online shopping beats going to the store.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Returning clothes you wore once is fine.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Check out a real debate. Live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would start a fight at the register? 🛒 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#shopping",
+    "#blackfriday",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
