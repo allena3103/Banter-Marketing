@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-12-pick-a-side",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": { "hook": "center", "body": "vote" },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    { "role": "hook", "text": "Pick a side on all 5. No middle ground.", "highlight": "No middle ground", "background": { "type": "gradient", "variant": "navy" } },
+    { "role": "body", "number": 1, "text": "Pineapple belongs on pizza.", "subtext": "Agree or disagree?" },
+    { "role": "body", "number": 2, "text": "A 4-day work week should be the law.", "subtext": "Agree or disagree?", "background": { "type": "gradient", "variant": "navy" } },
+    { "role": "body", "number": 3, "text": "The book is always better than the movie.", "subtext": "Agree or disagree?" },
+    { "role": "body", "number": 4, "text": "Social media has done more harm than good.", "subtext": "Agree or disagree?", "background": { "type": "gradient", "variant": "navy" } },
+    { "role": "body", "number": 5, "text": "Most meetings could have been an email.", "subtext": "Agree or disagree?" },
+    { "role": "cta", "text": "Picked your sides? Now defend them live. Join the waitlist.", "screenshot": "brand/screenshots/vs-debate.png", "background": { "type": "gradient", "variant": "navy" } }
+  ],
+  "caption": "Drop your answers 1–5 in the comments 👇 Then defend them live on Banter. Waitlist in bio.",
+  "hashtags": ["#debate", "#pickaside", "#hottakes", "#wouldyourather", "#banter"]
+}
