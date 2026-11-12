@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-should-be-illegal",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Phone habits that should be illegal",
+      "highlight": "illegal"
+    },
+    {
+      "role": "body",
+      "text": "Watching videos out loud in public.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Using your phone in a movie theater."
+    },
+    {
+      "role": "body",
+      "text": "Having hundreds of unread notifications.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Taking a call in the middle of a haircut."
+    },
+    {
+      "role": "body",
+      "text": "Filming an entire concert on your phone.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Put the phone down. Debate live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one do you see every day? 📵 Argue about it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#phones",
+    "#pettypeeves",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
