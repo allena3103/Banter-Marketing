@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-only-real-ones",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Only real ones agree with all 5",
+      "highlight": "all 5"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Pizza is better cold.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Movie theater popcorn is overrated.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Socks with sandals are actually fine.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Gift cards are a thoughtful gift.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "The middle seat gets both armrests.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Wrong on any of these? Prove it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "How many did you agree with? Be honest 😤 Argue it out live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#hottakes",
+    "#agreeordisagree",
+    "#debate",
+    "#relatable",
+    "#banter"
+  ]
+}
