@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-fight-at-work",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 takes that will start a fight at work",
+      "highlight": "start a fight",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Open offices make everyone worse at their job.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Unlimited PTO is a trick.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Office dress codes are pointless.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Everyone's salary should be public.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Hustle culture is just burnout with better branding.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Pick a side and defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Don't show this to your manager 😬 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#worklife",
+    "#corporatelife",
+    "#debate",
+    "#hottakes",
+    "#banter"
+  ]
+}
