@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-every-table",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Restaurant opinions that split every table",
+      "highlight": "every table"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Sharing plates beats ordering your own.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "QR code menus need to go.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Sending food back is rude.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Chain restaurants are underrated.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Eating alone at a restaurant is a power move.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Order up a live debate. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one would start a fight at dinner? 🍽️ Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#restaurants",
+    "#foodie",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
