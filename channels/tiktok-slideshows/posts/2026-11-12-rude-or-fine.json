@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-rude-or-fine",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Rude or totally fine? You decide.",
+      "highlight": "You decide",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Taking calls on speaker in public.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Showing up to a party empty-handed."
+    },
+    {
+      "role": "body",
+      "text": "Leaving a party without saying goodbye.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Asking a friend how much they make."
+    },
+    {
+      "role": "body",
+      "text": "Eating your roommate's leftovers without asking.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Rude or fine? Argue it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Rate each one: rude or fine? 👇 Then argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#etiquette",
+    "#rudeornot",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
