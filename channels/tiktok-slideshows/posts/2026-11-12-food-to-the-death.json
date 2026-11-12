@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-food-to-the-death",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Food opinions I will defend to the death",
+      "highlight": "to the death"
+    },
+    {
+      "role": "body",
+      "text": "Ketchup on eggs is elite.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Brunch is just a late breakfast with a markup."
+    },
+    {
+      "role": "body",
+      "text": "Well-done steak is fine if you like it.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Sushi is overrated."
+    },
+    {
+      "role": "body",
+      "text": "A hot dog is a sandwich.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Come fight me on these. Live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one made you angriest? 🍳 Fight about it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#food",
+    "#foodtok",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
