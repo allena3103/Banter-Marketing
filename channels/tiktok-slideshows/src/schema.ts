@@ -49,6 +49,7 @@ export const BodySlide = Base.extend({
   number: z.number().int().positive().optional(),
   text: z.string().max(110),
   subtext: z.string().max(80).optional(), // small line under the main text
+  reply: z.string().max(110).optional(), // bubble layout: the other side's comeback
 });
 
 export const CtaSlide = z.object({
