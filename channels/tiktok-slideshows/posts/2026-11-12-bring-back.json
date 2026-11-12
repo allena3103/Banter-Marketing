@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-bring-back",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Manners we need to bring back",
+      "highlight": "bring back",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Phones off the table at dinner."
+    },
+    {
+      "role": "body",
+      "text": "Calling, not texting, on someone's birthday.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Thanking the bus driver."
+    },
+    {
+      "role": "body",
+      "text": "Answering invites on time.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Returning your shopping cart."
+    },
+    {
+      "role": "cta",
+      "text": "Think manners are dead? Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "What would you add to the list? 🙏 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#manners",
+    "#etiquette",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
