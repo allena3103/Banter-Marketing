@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-get-you-roasted",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Hobby opinions that will get you roasted",
+      "highlight": "roasted",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Reading on your phone still counts as reading.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Board games beat video games."
+    },
+    {
+      "role": "body",
+      "text": "Collecting things is a waste of money.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Running for fun isn't fun."
+    },
+    {
+      "role": "body",
+      "text": "Knitting is the most underrated hobby.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Defend your hobby live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would get you roasted in the comments? 🔥 Defend it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#hobbies",
+    "#relatable",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
