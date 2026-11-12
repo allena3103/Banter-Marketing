@@ -54,18 +54,6 @@ const GRADIENTS = {
   sky: `radial-gradient(circle at 25% 15%, #8CC8F5 0%, transparent 55%), linear-gradient(160deg, ${C.sky} 0%, ${C.royal} 100%)`,
 };
 
-// Faint doodle pattern (speech bubble, mic, lightning, quote marks) tiled over
-// gradient backgrounds so plain slides don't feel empty.
-const PATTERN_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="540" height="540" viewBox="0 0 540 540" fill="none"
-  stroke="#fff" stroke-opacity=".09" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M60 80h120a20 20 0 0 1 20 20v60a20 20 0 0 1-20 20h-70l-30 28v-28h-20a20 20 0 0 1-20-20v-60a20 20 0 0 1 20-20z"/>
-  <g transform="rotate(-20 420 150)"><rect x="395" y="70" width="50" height="95" rx="25"/><path d="M372 135a48 48 0 0 0 96 0M420 183v35M395 218h50"/></g>
-  <path d="M140 300l-40 80h40l-25 75 72-100h-44l34-55z"/>
-  <path d="M345 390a22 22 0 1 1 22 22q0 30-25 45M415 390a22 22 0 1 1 22 22q0 30-25 45"/>
-  <circle cx="270" cy="250" r="9"/><circle cx="480" cy="480" r="9"/><circle cx="40" cy="500" r="9"/>
-</svg>`;
-const PATTERN = `url(data:image/svg+xml;base64,${Buffer.from(PATTERN_SVG).toString("base64")})`;
-
 let fontCss: string | undefined;
 function baseCss(): string {
   fontCss ??= [400, 600, 800]
@@ -86,7 +74,7 @@ function background(slide: Slide, shade: string): string {
   if (bg.type === "image") {
     return `<div class="bg" style="background-image:url(${repoFile(bg.path)})"></div><div class="shade" style="background:${shade}"></div>`;
   }
-  return `<div class="bg" style="background:${PATTERN} 0 0/540px 540px repeat,${GRADIENTS[bg.variant]}"></div>`;
+  return `<div class="bg" style="background:${GRADIENTS[bg.variant]}"></div>`;
 }
 
 function page(css: string, body: string): string {
@@ -172,40 +160,20 @@ function body(slide: Extract<Slide, { role: "body" }>, layout: BodyLayout, index
   }
 
   if (layout === "bubble") {
-    // Chat bubbles in the two podium colors, like two sides of a debate.
-    // With a `reply`, the slide shows a take and a comeback. Without one,
-    // single bubbles alternate sides from slide to slide.
-    const bubbleCss = (cls: string, color: string, left: boolean) => `
-    .${cls}{position:relative;background:${color};border-radius:48px;padding:52px 52px;
-            box-shadow:0 18px 50px rgba(0,0,0,.35);max-width:86%;align-self:${left ? "flex-start" : "flex-end"}}
-    .${cls}:after{content:"";position:absolute;bottom:-38px;${left ? "left:70px" : "right:70px"};
-            border-left:40px solid transparent;border-right:40px solid transparent;border-top:44px solid ${color}}`;
-    const tag = (label: string, left: boolean) =>
-      `<div class="tag" style="align-self:${left ? "flex-start" : "flex-end"}">${label}</div>`;
-    const pSize = slide.reply ? fitSize(slide.text, 72, 54, 110) : size;
-    const rSize = slide.reply ? fitSize(slide.reply, 72, 54, 110) : size;
-    const css = `${shared}
-    .safe{justify-content:center;gap:28px}
-    .tag{font-weight:800;font-size:30px;letter-spacing:2px;opacity:.85;padding:0 24px}
-    .a p{font-weight:800;font-size:${pSize}px;line-height:1.15;letter-spacing:-.5px}
-    .b p{font-weight:800;font-size:${rSize}px;line-height:1.15;letter-spacing:-.5px}
-    ${slide.reply ? bubbleCss("a", C.sky, true) + bubbleCss("b", C.slate, false) : ""}`;
-    if (slide.reply) {
-      return page(
-        css,
-        `${background(slide, shade)}
-         <div class="safe">${num}
-           ${tag("AGREE", true)}<div class="a"><p>${esc(slide.text)}</p></div>
-           <div style="height:40px"></div>
-           ${tag("DISAGREE", false)}<div class="b"><p>${esc(slide.reply)}</p></div>${sub}
-         </div>`,
-      );
-    }
+    // A chat bubble, alternating sides and the two podium colors from slide to slide.
     const left = index % 2 === 1; // first body slide on the left, then alternate
+    const color = left ? C.sky : C.slate;
+    const css = `${shared}
+    .safe{justify-content:center;gap:40px}
+    .bubble{position:relative;background:${color};border-radius:48px;padding:60px 56px;
+            box-shadow:0 18px 50px rgba(0,0,0,.35);max-width:88%;align-self:${left ? "flex-start" : "flex-end"}}
+    .bubble p{font-weight:800;font-size:${size}px;line-height:1.15;letter-spacing:-.5px}
+    .bubble:after{content:"";position:absolute;bottom:-38px;${left ? "left:70px" : "right:70px"};
+                  border-left:40px solid transparent;border-right:40px solid transparent;border-top:44px solid ${color}}`;
     return page(
-      `${css}${bubbleCss("a", left ? C.sky : C.slate, left)}`,
+      css,
       `${background(slide, shade)}
-       <div class="safe">${num}<div class="a"><p>${esc(slide.text)}</p></div>${sub}</div>`,
+       <div class="safe">${num}<div class="bubble"><p>${esc(slide.text)}</p></div>${sub}</div>`,
     );
   }
 
@@ -235,13 +203,13 @@ function body(slide: Extract<Slide, { role: "body" }>, layout: BodyLayout, index
 function cta(slide: Extract<Slide, { role: "cta" }>): string {
   const css = `
   .safe{align-items:center;gap:40px}
-  .row{flex:1;min-height:0;width:100%;display:flex;align-items:flex-end;justify-content:center;gap:12px}
+  .row{flex:1;min-height:0;width:calc(100% + 70px);margin-left:-70px;display:flex;align-items:flex-end;justify-content:center;gap:0}
   h2{font-weight:800;font-size:${fitSize(slide.text, 88, 66, 80)}px;line-height:1.12;text-align:center;
      letter-spacing:-.5px;text-shadow:0 4px 20px rgba(0,0,0,.35)}
-  .phone{position:relative;width:480px;height:100%;flex-shrink:0;border-radius:56px;padding:14px;background:${C.navy};
+  .phone{position:relative;width:420px;max-height:100%;flex-shrink:0;border-radius:56px;padding:14px;background:${C.navy};
          box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 4px rgba(255,255,255,.18)}
-  .phone div{width:100%;height:100%;border-radius:44px;background-size:cover;background-position:center top}
-  .mascot{width:340px;flex-shrink:0;margin-left:-40px;filter:drop-shadow(0 12px 30px rgba(0,0,0,.4))}
+  .phone img{display:block;width:100%;height:auto;border-radius:44px}
+  .mascot{width:480px;flex-shrink:0;filter:drop-shadow(0 12px 30px rgba(0,0,0,.4))}
   `;
   return page(
     css,
@@ -250,7 +218,7 @@ function cta(slide: Extract<Slide, { role: "cta" }>): string {
        <h2>${esc(slide.text)}</h2>
        <div class="row">
          ${slide.mascot ? `<img class="mascot" src="${repoFile("brand/assets/mascot-waitlist.png")}">` : ""}
-         <div class="phone"><div style="background-image:url(${repoFile(slide.screenshot)})"></div></div>
+         <div class="phone"><img src="${repoFile(slide.screenshot)}"></div>
        </div>
      </div>`,
   );
