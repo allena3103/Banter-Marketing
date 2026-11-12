@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-arguing-with-strangers",
+  "account": "banter_main",
+  "hook_angle": "insider",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-INSIDER",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Things you only learn by arguing with a stranger",
+      "highlight": "a stranger"
+    },
+    {
+      "role": "body",
+      "text": "The loudest person rarely wins.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "You can disagree with someone and still like them."
+    },
+    {
+      "role": "body",
+      "text": "Your best argument sounds weaker out loud.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Changing your mind isn't losing."
+    },
+    {
+      "role": "body",
+      "text": "Nobody is as sure as they sound.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Find out for yourself. Debate a stranger live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one hit hardest? Find out for yourself on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#debate",
+    "#lifelessons",
+    "#talktostrangers",
+    "#mindset",
+    "#banter"
+  ]
+}
