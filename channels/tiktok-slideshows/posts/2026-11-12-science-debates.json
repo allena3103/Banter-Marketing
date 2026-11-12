@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-science-debates",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Science debates that never end",
+      "highlight": "never end"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Humans should live on Mars.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Aliens have already visited Earth.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Going back in time would be a mistake.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Self-driving cars should replace human drivers.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "We should bring back extinct animals.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "End one of them. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which side are you on? 🚀 End the debate live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#science",
+    "#space",
+    "#deepthoughts",
+    "#debate",
+    "#banter"
+  ]
+}
