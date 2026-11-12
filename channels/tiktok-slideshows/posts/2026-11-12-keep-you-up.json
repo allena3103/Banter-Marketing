@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-keep-you-up",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Sleep opinions that will keep you up at night",
+      "highlight": "keep you up",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Naps should be normal at work.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Sleeping with socks on is wrong.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "You can't sleep without a fan on.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Making your bed every morning is pointless.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Night owls get more done than early birds.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Can't sleep? Debate someone live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Socks on or socks off? 🧦 Fight about it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#sleep",
+    "#relatable",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
