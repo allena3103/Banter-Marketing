@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-pet-opinions",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Pet opinions that will get you unfollowed",
+      "highlight": "unfollowed"
+    },
+    {
+      "role": "body",
+      "text": "Dressing up pets is for the owner, not the pet.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Pets shouldn't sleep in your bed."
+    },
+    {
+      "role": "body",
+      "text": "A goldfish counts as a real pet.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Pet birthday parties are a bit much."
+    },
+    {
+      "role": "body",
+      "text": "Adopting beats buying from a breeder.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Fight for your pets live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Your pet is judging your answers 🐶🐱 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#pets",
+    "#dogsoftiktok",
+    "#catsoftiktok",
+    "#debate",
+    "#banter"
+  ]
+}
