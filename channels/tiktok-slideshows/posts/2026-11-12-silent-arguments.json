@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-silent-arguments",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "4 texting habits that start silent arguments",
+      "highlight": "silent arguments",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Replying \"k\" to a long message."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Leaving someone on read for hours.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Sending five texts instead of one."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Answering a real question with a meme.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Stop texting. Say it out loud. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one are you guilty of? 📱 Say it out loud on Banter instead. Waitlist in bio.",
+  "hashtags": [
+    "#texting",
+    "#communication",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
