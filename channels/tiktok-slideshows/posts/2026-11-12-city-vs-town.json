@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-12-city-vs-town",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "City life vs. small town life. Pick a side.",
+      "highlight": "Pick a side"
+    },
+    {
+      "role": "body",
+      "text": "Living in a big city is overrated.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Small towns are friendlier.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Owning a car beats public transit.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "The suburbs are the best of both worlds.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "City rent is never worth it.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "City or town? Defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "City kid or small town forever? 🏙️🌾 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#citylife",
+    "#smalltown",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
