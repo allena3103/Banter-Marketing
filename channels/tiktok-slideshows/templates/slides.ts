@@ -123,7 +123,7 @@ function hook(slide: Extract<Slide, { role: "hook" }>, layout: HookLayout): stri
   // "center": big centered headline with a highlight pill.
   const css = `
   .safe{justify-content:center}
-  h1{font-weight:800;font-size:${fitSize(slide.text, 116, 84, 90)}px;line-height:1.12;letter-spacing:-1px;text-align:center;
+  h1{font-weight:800;font-size:${fitSize(slide.text, 116, 84, 90)}px;line-height:1.22;letter-spacing:-1px;text-align:center;
      text-shadow:0 4px 24px rgba(0,0,0,.45)}
   .hl{background:${C.sky};color:${C.white};padding:0 16px;border-radius:18px;
       box-decoration-break:clone;-webkit-box-decoration-break:clone;text-shadow:none}
