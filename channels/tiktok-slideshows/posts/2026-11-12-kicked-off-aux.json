@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-kicked-off-aux",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Music opinions that will get you kicked off aux",
+      "highlight": "kicked off aux",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Old music was better than new music.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Shuffle ruins albums.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Concert tickets aren't worth the price anymore.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Lyrics matter more than the beat.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Live versions beat studio versions.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Defend your music taste live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Who's losing aux privileges after this? 🎧 Defend your taste live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#music",
+    "#musictok",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
