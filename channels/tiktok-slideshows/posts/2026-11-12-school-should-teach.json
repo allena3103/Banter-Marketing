@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-school-should-teach",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 things school should have taught us instead",
+      "highlight": "should have taught us",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "How taxes actually work."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "How to disagree without getting personal.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "How to tell when a source is misleading you."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "How to cook five real meals.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "How to negotiate your salary."
+    },
+    {
+      "role": "cta",
+      "text": "Start with #2. Practice it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "What would you add to the list? 📚 Practice #2 live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#school",
+    "#lifeskills",
+    "#adulting",
+    "#debate",
+    "#banter"
+  ]
+}
