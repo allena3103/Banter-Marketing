@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-self-care-takes",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Self-care takes nobody wants to hear",
+      "highlight": "nobody wants to hear",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "A ten-step skincare routine is too much.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Getting your nails done is real self-care."
+    },
+    {
+      "role": "body",
+      "text": "Expensive haircuts are worth it.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Sunscreen every day is non-negotiable."
+    },
+    {
+      "role": "body",
+      "text": "Bubble baths are overrated.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Treat yourself to a live debate. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one do you disagree with? 🧴 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#selfcare",
+    "#skincare",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
