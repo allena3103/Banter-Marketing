@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-sound-cheap",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "4 money habits that sound cheap but are smart",
+      "highlight": "sound cheap",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Bringing lunch from home."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Waiting two days before any big purchase.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Canceling subscriptions you forgot about."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Buying the store brand.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Cheap or smart? Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Cheap or smart? You decide 💰 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#money",
+    "#savingmoney",
+    "#frugal",
+    "#debate",
+    "#banter"
+  ]
+}
