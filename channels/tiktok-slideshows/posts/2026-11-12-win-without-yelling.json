@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-win-without-yelling",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 ways to win an argument without raising your voice",
+      "highlight": "without raising your voice",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Ask what would change their mind before you start."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Repeat their point back better than they said it.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Pick one strong argument. Not ten weak ones."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Admit when they're right. It makes you more convincing.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Stay curious. Good questions beat clever comebacks."
+    },
+    {
+      "role": "cta",
+      "text": "Practice on someone who actually disagrees. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Save this for your next argument 📌 Then put it to the test live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#debate",
+    "#communication",
+    "#arguments",
+    "#selfimprovement",
+    "#banter"
+  ]
+}
