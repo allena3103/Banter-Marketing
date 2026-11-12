@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-12-split-every-room",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Pop culture takes that split every room",
+      "highlight": "split every room"
+    },
+    {
+      "role": "body",
+      "text": "Award shows don't matter anymore.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Reboots are ruining movies.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Reality TV is more honest than scripted TV.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Spoilers don't actually ruin anything.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Celebrities should keep their opinions to themselves.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Pick your side and defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which side are you on for each? 🍿 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#popculture",
+    "#movies",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
