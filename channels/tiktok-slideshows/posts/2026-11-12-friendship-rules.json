@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-friendship-rules",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "4 friendship rules nobody says out loud",
+      "highlight": "nobody says out loud",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "If you cancel last minute, you plan the next hangout."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Every group chat needs one planner or nothing happens.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Requesting five dollars back is a friendship crime."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Outgrowing a friend doesn't make you a bad person.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Disagree with one? Argue it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Tag the friend who breaks rule #1 😂 Debate the rest live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#friendship",
+    "#friends",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
