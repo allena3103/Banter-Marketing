@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-12-end-any-argument",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "3 questions that end any argument fast",
+      "highlight": "end any argument",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "\"What would change your mind?\""
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "\"What do we actually agree on?\"",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "\"Are we arguing about facts or feelings?\""
+    },
+    {
+      "role": "cta",
+      "text": "Try them on a stranger. Live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Save these for your next argument 📌 Test them live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#communication",
+    "#relationships",
+    "#arguments",
+    "#debate",
+    "#banter"
+  ]
+}
