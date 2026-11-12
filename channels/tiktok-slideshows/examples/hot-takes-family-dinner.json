@@ -3,18 +3,85 @@
   "account": "banter_main",
   "hook_angle": "controversial",
   "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
   "referral_code": "TT-CONTROVERSIAL",
   "slides": [
-    { "role": "hook", "text": "5 opinions that will start a fight at Thanksgiving dinner", "highlight": "start a fight",
-      "image": { "prompt": "tense family dinner table, everyone mid-argument, warm dramatic light, no text", "tags": ["family", "dinner", "argument"], "source": "library" } },
-    { "role": "body", "number": 1, "text": "Tipping culture is a scam.", "subtext": "Agree or disagree?",
-      "image": { "prompt": "restaurant receipt with a tip line, moody close-up, no text", "tags": ["money", "restaurant", "tipping"], "source": "library" } },
-    { "role": "body", "number": 2, "text": "College is not worth the debt.", "subtext": "Agree or disagree?", "background": { "type": "gradient", "variant": "navy" } },
-    { "role": "body", "number": 3, "text": "Billionaires should not exist.", "subtext": "Agree or disagree?" },
-    { "role": "body", "number": 4, "text": "AI will take more jobs than it creates.", "subtext": "Agree or disagree?", "background": { "type": "gradient", "variant": "navy" } },
-    { "role": "body", "number": 5, "text": "Nuclear energy is the future.", "subtext": "Agree or disagree?" },
-    { "role": "cta", "text": "Think you're right? Prove it. Debate a stranger live.", "screenshot": "brand/screenshots/vs-debate.png" }
+    {
+      "role": "hook",
+      "text": "5 opinions that will start a fight at Thanksgiving dinner",
+      "highlight": "start a fight",
+      "image": {
+        "prompt": "tense family dinner table, everyone mid-argument, warm dramatic light, no text",
+        "tags": [
+          "family",
+          "dinner",
+          "argument"
+        ],
+        "source": "library"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Tipping culture is a scam.",
+      "subtext": "Agree or disagree?",
+      "image": {
+        "prompt": "restaurant receipt with a tip line, moody close-up, no text",
+        "tags": [
+          "money",
+          "restaurant",
+          "tipping"
+        ],
+        "source": "library"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "College is not worth the debt.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Billionaires should not exist.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "AI will take more jobs than it creates.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Nuclear energy is the future.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Think you're right? Prove it. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
   ],
   "caption": "Which one would you defend live? 👀 Pick a side and debate a real person on Banter.",
-  "hashtags": ["#debate", "#hottakes", "#thanksgiving", "#unpopularopinion", "#banter"]
+  "hashtags": [
+    "#debate",
+    "#hottakes",
+    "#thanksgiving",
+    "#unpopularopinion",
+    "#banter"
+  ]
 }

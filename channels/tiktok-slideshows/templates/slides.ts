@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import { extname, resolve } from "node:path";
-import type { Slide } from "../src/schema.ts";
+import type { BodyLayout, HookLayout, Slide, Spec } from "../src/schema.ts";
 
 // Slide templates. Each slide becomes one self-contained HTML page
 // (fonts and images inlined) rendered at 1080x1920.
@@ -87,56 +87,118 @@ function fitSize(text: string, max: number, min: number, longAt: number): number
   return Math.round(max - (max - min) * t);
 }
 
-function hook(slide: Extract<Slide, { role: "hook" }>): string {
-  let text = esc(slide.text);
-  if (slide.highlight && slide.text.includes(slide.highlight)) {
-    text = text.replace(esc(slide.highlight), `<span class="hl">${esc(slide.highlight)}</span>`);
+// TikTok-native caption text: white with a dark outline, no box.
+const CAPTION_TEXT = `color:${C.white};-webkit-text-stroke:10px ${C.navy};paint-order:stroke fill;
+  text-shadow:0 6px 24px rgba(0,0,0,.35)`;
+
+function highlighted(text: string, highlight?: string): string {
+  const safe = esc(text);
+  if (!highlight || !text.includes(highlight)) return safe;
+  return safe.replace(esc(highlight), `<span class="hl">${esc(highlight)}</span>`);
+}
+
+// --- Hook layouts -----------------------------------------------------------
+
+function hook(slide: Extract<Slide, { role: "hook" }>, layout: HookLayout): string {
+  const text = highlighted(slide.text, slide.highlight);
+  const swipe = `<div class="swipe">swipe →</div>`;
+  const swipeCss = `.swipe{position:absolute;bottom:440px;left:0;right:60px;text-align:center;font-weight:600;font-size:40px;opacity:.85}`;
+
+  if (layout === "caption") {
+    // Text near the top over the picture, like a creator's own slideshow.
+    const css = `
+    .safe{justify-content:flex-start;padding-top:60px}
+    h1{font-weight:800;font-size:${fitSize(slide.text, 96, 72, 90)}px;line-height:1.15;text-align:center;${CAPTION_TEXT}}
+    .hl{color:${C.sky}}
+    ${swipeCss}`;
+    return page(
+      css,
+      `${background(slide, "linear-gradient(180deg,rgba(8,20,50,.45) 0%,rgba(8,20,50,0) 45%)")}
+       <div class="safe"><h1>${text}</h1></div>${swipe}`,
+    );
   }
-  const size = fitSize(slide.text, 116, 84, 90);
+
+  // "center": big centered headline with a highlight pill.
   const css = `
   .safe{justify-content:center}
-  h1{font-weight:800;font-size:${size}px;line-height:1.12;letter-spacing:-1px;text-align:center;
+  h1{font-weight:800;font-size:${fitSize(slide.text, 116, 84, 90)}px;line-height:1.12;letter-spacing:-1px;text-align:center;
      text-shadow:0 4px 24px rgba(0,0,0,.45)}
   .hl{background:${C.sky};color:${C.white};padding:0 16px;border-radius:18px;
       box-decoration-break:clone;-webkit-box-decoration-break:clone;text-shadow:none}
-  .swipe{position:absolute;bottom:440px;left:0;right:60px;text-align:center;font-weight:600;font-size:40px;opacity:.85}
-  `;
+  ${swipeCss}`;
   return page(
     css,
     `${background(slide, "linear-gradient(180deg,rgba(8,20,50,.55) 0%,rgba(8,20,50,.35) 45%,rgba(8,20,50,.7) 100%)")}
-     <div class="safe"><h1>${text}</h1></div>
-     <div class="swipe">swipe →</div>`,
+     <div class="safe"><h1>${text}</h1></div>${swipe}`,
   );
 }
 
-function body(slide: Extract<Slide, { role: "body" }>): string {
+// --- Body layouts -----------------------------------------------------------
+
+function body(slide: Extract<Slide, { role: "body" }>, layout: BodyLayout, index: number): string {
   const size = fitSize(slide.text, 88, 62, 110);
-  const css = `
-  .safe{justify-content:center;gap:40px}
+  const sub = slide.subtext ? `<div class="sub">${esc(slide.subtext)}</div>` : "";
+  const shared = `
+  .sub{text-align:center;font-weight:600;font-size:48px;text-shadow:0 3px 16px rgba(0,0,0,.5)}
   .num{width:140px;height:140px;border-radius:70px;background:${C.sky};display:flex;align-items:center;
-       justify-content:center;font-weight:800;font-size:76px;box-shadow:0 8px 30px rgba(0,0,0,.3);align-self:center}
+       justify-content:center;font-weight:800;font-size:76px;box-shadow:0 8px 30px rgba(0,0,0,.3);align-self:center}`;
+  const num = slide.number ? `<div class="num">${slide.number}</div>` : "";
+  const shade = "linear-gradient(180deg,rgba(8,20,50,.35) 0%,rgba(8,20,50,.55) 100%)";
+
+  if (layout === "caption") {
+    // Numbered point in outlined text near the top; lets the picture carry the slide.
+    const css = `${shared}
+    .safe{justify-content:flex-start;padding-top:60px;gap:32px}
+    p{font-weight:800;font-size:${size}px;line-height:1.15;text-align:center;${CAPTION_TEXT}}
+    .n{color:${C.sky}}`;
+    const n = slide.number ? `<span class="n">${slide.number}.</span> ` : "";
+    return page(
+      css,
+      `${background(slide, "linear-gradient(180deg,rgba(8,20,50,.45) 0%,rgba(8,20,50,0) 50%)")}
+       <div class="safe"><p>${n}${esc(slide.text)}</p>${sub}</div>`,
+    );
+  }
+
+  if (layout === "bubble") {
+    // A chat bubble, alternating the two podium colors like two sides of a debate.
+    const left = index % 2 === 1; // slide 2 (first body) on the left, then alternate
+    const color = left ? C.sky : C.slate;
+    const css = `${shared}
+    .safe{justify-content:center;gap:40px}
+    .bubble{position:relative;background:${color};border-radius:48px;padding:60px 56px;
+            box-shadow:0 18px 50px rgba(0,0,0,.35);max-width:88%;align-self:${left ? "flex-start" : "flex-end"}}
+    .bubble p{font-weight:800;font-size:${size}px;line-height:1.15;letter-spacing:-.5px}
+    .bubble:after{content:"";position:absolute;bottom:-38px;${left ? "left:70px" : "right:70px"};
+                  border-left:40px solid transparent;border-right:40px solid transparent;border-top:44px solid ${color}}`;
+    return page(
+      css,
+      `${background(slide, shade)}
+       <div class="safe">${num}<div class="bubble"><p>${esc(slide.text)}</p></div>${sub}</div>`,
+    );
+  }
+
+  // "card" (white card) and "vote" (card plus AGREE / DISAGREE pills).
+  const vote =
+    layout === "vote"
+      ? `<div class="vs"><span class="agree">AGREE</span><span class="disagree">DISAGREE</span></div>`
+      : "";
+  const css = `${shared}
+  .safe{justify-content:center;gap:40px}
   .card{background:${C.white};color:${C.navy};border-radius:36px;padding:56px 52px;
         box-shadow:0 18px 50px rgba(0,0,0,.35);text-align:center}
   .card p{font-weight:800;font-size:${size}px;line-height:1.15;letter-spacing:-.5px}
-  .sub{text-align:center;font-weight:600;font-size:48px;text-shadow:0 3px 16px rgba(0,0,0,.5)}
   .vs{display:flex;gap:24px;justify-content:center}
   .vs span{font-weight:800;font-size:40px;padding:20px 44px;border-radius:40px;letter-spacing:1px}
   .agree{background:${C.slate}}
-  .disagree{background:${C.sky}}
-  `;
-  const sub = slide.subtext
-    ? `<div class="sub">${esc(slide.subtext)}</div><div class="vs"><span class="agree">AGREE</span><span class="disagree">DISAGREE</span></div>`
-    : "";
+  .disagree{background:${C.sky}}`;
   return page(
     css,
-    `${background(slide, "linear-gradient(180deg,rgba(8,20,50,.35) 0%,rgba(8,20,50,.55) 100%)")}
-     <div class="safe">
-       ${slide.number ? `<div class="num">${slide.number}</div>` : ""}
-       <div class="card"><p>${esc(slide.text)}</p></div>
-       ${sub}
-     </div>`,
+    `${background(slide, shade)}
+     <div class="safe">${num}<div class="card"><p>${esc(slide.text)}</p></div>${sub}${vote}</div>`,
   );
 }
+
+// --- CTA --------------------------------------------------------------------
 
 function cta(slide: Extract<Slide, { role: "cta" }>): string {
   const css = `
@@ -159,12 +221,14 @@ function cta(slide: Extract<Slide, { role: "cta" }>): string {
   );
 }
 
-export function slideHtml(slide: Slide): string {
+// The spec sets one layout per slide type so a post looks consistent;
+// a slide can override it.
+export function slideHtml(slide: Slide, layouts: Spec["layout"], index: number): string {
   switch (slide.role) {
     case "hook":
-      return hook(slide);
+      return hook(slide, slide.layout ?? layouts.hook);
     case "body":
-      return body(slide);
+      return body(slide, slide.layout ?? layouts.body, index);
     case "cta":
       return cta(slide);
   }

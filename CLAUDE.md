@@ -12,7 +12,8 @@ Marketing automation for **Banter**, a live video debate app. Several agents wor
 - Never invent prices, user counts, stats or quotes. Prices and store links come from the owner only.
 - Banter is 18+. Don't target or depict minors.
 - Debate prompts are one-sided statements users agree or disagree with (e.g. "College is not worth the debt").
-- Only use app screenshots from `brand/screenshots/`. Don't add screenshots showing real users' faces or usernames unless the owner confirms consent.
+- Banter is **pre-launch**: every CTA points to the waitlist ("Join the waitlist", "link in bio"). Don't say "download" or "available now".
+- Only use app screenshots from `brand/screenshots/`. The owner has consent for the people in the current ones. Don't add screenshots showing other real users unless the owner confirms consent.
 
 ## Layout
 ```

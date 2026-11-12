@@ -26,7 +26,7 @@ async function main(paths: string[]) {
       const dir = resolve(OUTPUT, spec.id);
       mkdirSync(dir, { recursive: true });
       for (const [i, slide] of spec.slides.entries()) {
-        await page.setContent(slideHtml(slide), { waitUntil: "load" });
+        await page.setContent(slideHtml(slide, spec.layout, i), { waitUntil: "load" });
         await page.evaluate(() => document.fonts.ready);
         const file = resolve(dir, `slide_${String(i + 1).padStart(2, "0")}.png`);
         await page.screenshot({ path: file });

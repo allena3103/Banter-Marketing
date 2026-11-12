@@ -3,15 +3,48 @@
   "account": "banter_main",
   "hook_angle": "insider",
   "style": "photo-test",
+  "layout": {
+    "hook": "caption",
+    "body": "caption"
+  },
   "referral_code": "TT-INSIDER",
   "slides": [
-    { "role": "hook", "text": "What actually wins a live argument with a stranger", "highlight": "actually wins",
-      "background": { "type": "image", "path": "brand/screenshots/vs-debate.png" } },
-    { "role": "body", "number": 1, "text": "Ask them what would change their mind before you argue." },
-    { "role": "body", "number": 2, "text": "Agree with their best point out loud. It disarms them instantly." },
-    { "role": "body", "number": 3, "text": "Calm beats loud. Every single time." },
-    { "role": "cta", "text": "Test it yourself. Debate someone who disagrees, live.", "screenshot": "brand/screenshots/vs-debate.png", "mascot": false }
+    {
+      "role": "hook",
+      "text": "What actually wins a live argument with a stranger",
+      "highlight": "actually wins",
+      "background": {
+        "type": "image",
+        "path": "brand/screenshots/vs-debate.png"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Ask them what would change their mind before you argue."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Agree with their best point out loud. It disarms them instantly."
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Calm beats loud. Every single time."
+    },
+    {
+      "role": "cta",
+      "text": "Test it yourself. Join the waitlist, link in bio.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "mascot": false
+    }
   ],
   "caption": "Save this for your next argument 😤 Practice on Banter.",
-  "hashtags": ["#debate", "#communication", "#arguments", "#banter"]
+  "hashtags": [
+    "#debate",
+    "#communication",
+    "#arguments",
+    "#banter"
+  ]
 }

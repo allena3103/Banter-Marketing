@@ -26,17 +26,29 @@ const Base = z.object({
   image: ImageRequest.optional(),
 });
 
+// Layouts. A spec picks one per slide type (see `layout` below);
+// a slide can override it.
+//   hook: center = big centered headline · caption = outlined text near the top over the picture
+//   body: card = white card · vote = card + AGREE/DISAGREE pills ·
+//         caption = outlined text over the picture · bubble = chat bubble in the podium colors
+export const HookLayout = z.enum(["center", "caption"]);
+export const BodyLayout = z.enum(["card", "vote", "caption", "bubble"]);
+export type HookLayout = z.infer<typeof HookLayout>;
+export type BodyLayout = z.infer<typeof BodyLayout>;
+
 export const HookSlide = Base.extend({
   role: z.literal("hook"),
+  layout: HookLayout.optional(),
   text: z.string().max(90),
   highlight: z.string().optional(), // a word or phrase in `text` to color
 });
 
 export const BodySlide = Base.extend({
   role: z.literal("body"),
+  layout: BodyLayout.optional(),
   number: z.number().int().positive().optional(),
   text: z.string().max(110),
-  subtext: z.string().max(80).optional(), // e.g. "Agree or disagree?"
+  subtext: z.string().max(80).optional(), // small line under the main text
 });
 
 export const CtaSlide = z.object({
@@ -57,6 +69,9 @@ export const Spec = z
     account: z.string(),
     hook_angle: z.enum(HOOK_ANGLES),
     style: z.string(), // visual style name, e.g. "cinematic-dark"
+    layout: z
+      .object({ hook: HookLayout.default("center"), body: BodyLayout.default("card") })
+      .default({}),
     referral_code: z.string().optional(),
     slides: z.array(Slide).min(3).max(12),
     caption: z.string().max(2200),
