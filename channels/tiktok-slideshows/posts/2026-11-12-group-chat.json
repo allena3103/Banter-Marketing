@@ -1,0 +1,19 @@
+{
+  "id": "2026-11-12-group-chat",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": { "hook": "center", "body": "bubble" },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    { "role": "hook", "text": "Opinions that will get you kicked out of the group chat", "highlight": "kicked out" },
+    { "role": "body", "text": "Tipping culture is a scam.", "background": { "type": "gradient", "variant": "sky" } },
+    { "role": "body", "text": "Being early is just being on time with extra steps." },
+    { "role": "body", "text": "Kids shouldn't have smartphones before 16.", "background": { "type": "gradient", "variant": "sky" } },
+    { "role": "body", "text": "College is not worth the debt." },
+    { "role": "body", "text": "Group projects teach you nothing except who to avoid.", "background": { "type": "gradient", "variant": "sky" } },
+    { "role": "cta", "text": "Say it with your chest. Debate it live. Join the waitlist.", "screenshot": "brand/screenshots/vs-debate.png" }
+  ],
+  "caption": "Which one gets you removed first? 😭 Say it out loud on Banter. Waitlist in bio.",
+  "hashtags": ["#debate", "#unpopularopinion", "#groupchat", "#hottakes", "#banter"]
+}
