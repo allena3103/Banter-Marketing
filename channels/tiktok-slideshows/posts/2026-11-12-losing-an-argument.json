@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-losing-an-argument",
+  "account": "banter_main",
+  "hook_angle": "value",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-VALUE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "4 signs you're losing an argument",
+      "highlight": "losing",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "You're talking louder instead of clearer."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "You're arguing about how they said it, not what they said.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "You bring up something from three years ago."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "You can't explain their side at all.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Get better at arguing. Practice live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Be honest, which one are you guilty of? 😅 Level up live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#communication",
+    "#arguments",
+    "#relationships",
+    "#debate",
+    "#banter"
+  ]
+}
