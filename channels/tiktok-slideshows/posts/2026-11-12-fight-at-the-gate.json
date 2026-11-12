@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-fight-at-the-gate",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Travel opinions that will start a fight at the gate",
+      "highlight": "at the gate",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Reclining your seat is completely fine.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Getting to the airport three hours early is too early."
+    },
+    {
+      "role": "body",
+      "text": "The window seat is the only right answer.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Clapping when the plane lands is wholesome."
+    },
+    {
+      "role": "body",
+      "text": "Carry-on only is the superior way to travel.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Board the debate. Argue it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would you fight a stranger over? ✈️ Do it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#travel",
+    "#traveltok",
+    "#airport",
+    "#debate",
+    "#banter"
+  ]
+}
