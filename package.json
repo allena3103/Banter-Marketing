@@ -5,7 +5,8 @@
   "scripts": {
     "render": "tsx channels/tiktok-slideshows/src/render.ts",
     "validate": "tsx channels/tiktok-slideshows/src/validate.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "muse": "tsx channels/tiktok-slideshows/src/muse.ts"
   },
   "dependencies": {
     "@fontsource/poppins": "^5.3.0",

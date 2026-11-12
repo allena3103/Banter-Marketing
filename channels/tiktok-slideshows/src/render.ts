@@ -7,18 +7,17 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 import { chromium } from "playwright";
 import { loadSpec } from "./load.ts";
+import type { Spec } from "./schema.ts";
 import { HEIGHT, WIDTH, slideHtml } from "../templates/slides.ts";
 
-const OUTPUT = resolve(import.meta.dirname, "../output");
+export const OUTPUT = resolve(import.meta.dirname, "../output");
 
-async function main(paths: string[]) {
-  if (paths.length === 0) {
-    console.error("Usage: npm run render -- <spec.json> [more specs...]");
-    process.exit(1);
-  }
-  const specs = paths.map(loadSpec);
+/** Render specs to output/<id>/. Returns the output folder of each spec. */
+export async function renderSpecs(specs: Spec[]): Promise<string[]> {
+  const dirs: string[] = [];
   const browser = await chromium.launch();
   try {
     const page = await browser.newPage({ viewport: { width: WIDTH, height: HEIGHT } });
@@ -34,13 +33,22 @@ async function main(paths: string[]) {
       writeFileSync(resolve(dir, "caption.txt"), `${spec.caption}\n\n${spec.hashtags.join(" ")}\n`);
       writeFileSync(resolve(dir, "spec.json"), JSON.stringify(spec, null, 2));
       console.log(`✓ ${spec.id}: ${spec.slides.length} slides → ${dir}`);
+      dirs.push(dir);
     }
   } finally {
     await browser.close();
   }
+  return dirs;
 }
 
-main(process.argv.slice(2)).catch((err) => {
-  console.error(err instanceof Error ? err.message : err);
-  process.exit(1);
-});
+if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
+  const paths = process.argv.slice(2);
+  if (paths.length === 0) {
+    console.error("Usage: npm run render -- <spec.json> [more specs...]");
+    process.exit(1);
+  }
+  renderSpecs(paths.map(loadSpec)).catch((err) => {
+    console.error(err instanceof Error ? err.message : err);
+    process.exit(1);
+  });
+}
