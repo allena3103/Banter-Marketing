@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-uninvited",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Wedding opinions that will get you uninvited",
+      "highlight": "uninvited"
+    },
+    {
+      "role": "body",
+      "text": "Destination weddings are selfish.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Kid-free weddings are completely fine."
+    },
+    {
+      "role": "body",
+      "text": "Cash gifts beat registry gifts.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Big weddings are a waste of money."
+    },
+    {
+      "role": "body",
+      "text": "Public proposals put too much pressure on someone.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Speak now. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one gets you uninvited fastest? 💍 Speak now on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#wedding",
+    "#weddingtok",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
