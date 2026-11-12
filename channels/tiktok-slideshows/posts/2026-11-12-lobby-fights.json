@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-lobby-fights",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 gaming takes that start lobby fights",
+      "highlight": "lobby fights",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Single-player games beat online games."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Mobile gaming is real gaming.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Remakes are better than the originals."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Microtransactions ruined gaming.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Every game should have an easy mode."
+    },
+    {
+      "role": "cta",
+      "text": "Take it out of the lobby. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would get you kicked from the party? 🎮 Settle it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#gaming",
+    "#gamer",
+    "#gamingtok",
+    "#debate",
+    "#banter"
+  ]
+}
