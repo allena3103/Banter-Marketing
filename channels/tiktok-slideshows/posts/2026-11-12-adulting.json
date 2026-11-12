@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-adulting",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Adulting opinions nobody warned us about",
+      "highlight": "nobody warned us about",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Laundry is the worst chore.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Grocery shopping is secretly relaxing."
+    },
+    {
+      "role": "body",
+      "text": "Making phone calls is scarier than it should be.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Owning a houseplant means you have your life together."
+    },
+    {
+      "role": "body",
+      "text": "A ten o'clock bedtime is a luxury.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Adult enough to debate? Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one is too real? 🧺 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#adulting",
+    "#relatable",
+    "#twenties",
+    "#debate",
+    "#banter"
+  ]
+}
