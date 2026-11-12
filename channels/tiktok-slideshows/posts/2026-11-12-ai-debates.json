@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-ai-debates",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "4 AI debates nobody can settle",
+      "highlight": "nobody can settle",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "AI should always have to say it's AI."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Using AI to write a text to a friend is cheating.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "AI is making people lazier."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "AI-made music shouldn't win awards.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Settle one live, human to human. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which side are you on for each? 🤖 Settle it human to human on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#ai",
+    "#tech",
+    "#futureofwork",
+    "#debate",
+    "#banter"
+  ]
+}
