@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-side-eyed",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Fashion opinions that will get you side-eyed",
+      "highlight": "side-eyed"
+    },
+    {
+      "role": "body",
+      "text": "Comfort beats style every time.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Matching outfits with your partner is cute."
+    },
+    {
+      "role": "body",
+      "text": "Designer logos are just paid advertising.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Wearing pajamas in public is fine."
+    },
+    {
+      "role": "body",
+      "text": "Crocs are a valid shoe.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Defend your fits live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would you get side-eyed for? 👀 Defend it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#fashion",
+    "#fashiontok",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
