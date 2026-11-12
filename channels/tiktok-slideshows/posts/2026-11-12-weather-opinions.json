@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-weather-opinions",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Weather opinions you'll have to defend",
+      "highlight": "defend",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Winter is better than summer."
+    },
+    {
+      "role": "body",
+      "text": "Rainy days are the best days.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Fall is overrated."
+    },
+    {
+      "role": "body",
+      "text": "Snow is only fun for one day.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Spring is the most underrated season."
+    },
+    {
+      "role": "cta",
+      "text": "Pick your season. Defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "What's your season and why is it the best? 🌦️ Defend it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#weather",
+    "#seasons",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
