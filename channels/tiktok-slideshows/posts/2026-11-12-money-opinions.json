@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-money-opinions",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Unpopular opinions about money",
+      "highlight": "money"
+    },
+    {
+      "role": "body",
+      "text": "Renting isn't throwing money away.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Buying coffee every day is fine if you can afford it."
+    },
+    {
+      "role": "body",
+      "text": "Credit card points are a game you're losing.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Rent should be split by room size, not evenly."
+    },
+    {
+      "role": "body",
+      "text": "Lottery tickets are entertainment, not a plan.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Think you know money? Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one do you disagree with most? 💸 Fight about it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#money",
+    "#personalfinance",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
