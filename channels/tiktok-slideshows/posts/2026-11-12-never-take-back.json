@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-never-take-back",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Movie opinions I'll never take back",
+      "highlight": "never take back"
+    },
+    {
+      "role": "body",
+      "text": "Most movies today are way too long.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Watching at home beats the theater."
+    },
+    {
+      "role": "body",
+      "text": "Animated movies aren't just for kids.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Horror movies are the most fun to watch with friends."
+    },
+    {
+      "role": "body",
+      "text": "Subtitles on is the only way to watch.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Think I'm wrong? Prove it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would you fight me on? 🎬 Prove it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#movies",
+    "#movietok",
+    "#unpopularopinion",
+    "#debate",
+    "#banter"
+  ]
+}
