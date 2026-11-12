@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-12-road-rage",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "5 driving opinions that cause instant road rage",
+      "highlight": "road rage",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Slow drivers in the left lane are worse than speeders."
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Everyone should pass a parallel parking test.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Honking is almost never necessary."
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Automatic cars are better than manuals.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Road trips beat flying."
+    },
+    {
+      "role": "cta",
+      "text": "Pull over and argue it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one made your blood boil? 🚗 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#driving",
+    "#cartok",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
