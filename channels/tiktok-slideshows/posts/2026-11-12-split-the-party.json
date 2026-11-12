@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-split-the-party",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Birthday opinions that will split the party",
+      "highlight": "split the party",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Surprise parties are stressful, not fun.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Adults should still go big on birthdays."
+    },
+    {
+      "role": "body",
+      "text": "Singing happy birthday is awkward for everyone.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "The birthday person should pay for their own dinner."
+    },
+    {
+      "role": "body",
+      "text": "Birthday weeks are too much.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Make a wish. Win a debate. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one would ruin the party? 🎂 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#birthday",
+    "#party",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
