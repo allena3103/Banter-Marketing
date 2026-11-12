@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-break-room",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Drink takes that will split the break room",
+      "highlight": "split the break room"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Iced coffee beats hot coffee, even in winter.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Tea is better than coffee.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Sparkling water tastes like TV static.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "A complicated coffee order is a personality trait.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Decaf is pointless.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Spill your takes live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one would start a fight at your office? ☕ Spill it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#coffee",
+    "#coffeetok",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
