@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-12-internet-cant-agree",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Takes the internet still can't agree on",
+      "highlight": "can't agree on"
+    },
+    {
+      "role": "body",
+      "text": "Reply all should be banned.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Voice notes are better than texts.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Read receipts should always be on.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Posting your relationship online jinxes it.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "text": "Being an influencer is a real job.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Settle it face to face. Live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "The comments are going to be a war zone 💀 Settle it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#internet",
+    "#hottakes",
+    "#agreeordisagree",
+    "#debate",
+    "#banter"
+  ]
+}
