@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-get-you-booed",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Sports takes that will get you booed out of the stadium",
+      "highlight": "booed",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Fantasy football ruins watching real games.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Esports are real sports.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Golf is a hobby, not a sport.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "The halftime show is better than the game.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Pro athletes are overpaid.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Think you know sports? Debate a fan live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one gets you booed the loudest? 🏟️ Settle it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#sports",
+    "#sportstok",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
