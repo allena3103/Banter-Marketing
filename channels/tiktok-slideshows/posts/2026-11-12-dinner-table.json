@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-dinner-table",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Family opinions nobody says at the dinner table",
+      "highlight": "dinner table"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "The middle child has it hardest.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Being the oldest sibling is a full-time job.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Living with your parents as an adult is smart.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Grandparents spoil kids too much.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "You don't have to like every relative.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Say it out loud. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Oldest, middle, youngest or only? 👀 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#family",
+    "#siblings",
+    "#relatable",
+    "#debate",
+    "#banter"
+  ]
+}
