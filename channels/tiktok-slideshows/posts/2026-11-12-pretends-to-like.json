@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-pretends-to-like",
+  "account": "banter_main",
+  "hook_angle": "surprise",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-SURPRISE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Things everyone pretends to like",
+      "highlight": "pretends to like",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Camping is just being uncomfortable on purpose.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Wine tastings are boring."
+    },
+    {
+      "role": "body",
+      "text": "Musicals are overrated.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Beach vacations get boring fast."
+    },
+    {
+      "role": "body",
+      "text": "Escape rooms are stressful, not fun.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Actually like them? Prove it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Be honest, which one do you secretly hate? 🙃 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#unpopularopinion",
+    "#relatable",
+    "#honest",
+    "#debate",
+    "#banter"
+  ]
+}
