@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-12-real-arguments",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "card"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Late-night questions that start real arguments",
+      "highlight": "real arguments"
+    },
+    {
+      "role": "body",
+      "text": "Money can buy happiness.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Everyone is a little bit selfish."
+    },
+    {
+      "role": "body",
+      "text": "Hard work beats talent.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "People don't really change."
+    },
+    {
+      "role": "body",
+      "text": "Being honest is more important than being kind.",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Pick one and defend it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one do you actually believe? 🌙 Go deep live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#deepquestions",
+    "#philosophy",
+    "#latenight",
+    "#debate",
+    "#banter"
+  ]
+}
