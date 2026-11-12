@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-12-choose-wisely",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "You have to defend one of these live. Choose wisely.",
+      "highlight": "Choose wisely",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Dogs are better than cats.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Summer is the most overrated season."
+    },
+    {
+      "role": "body",
+      "text": "Working from home beats the office.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Sequels are never as good as the original."
+    },
+    {
+      "role": "body",
+      "text": "Mornings are better than late nights.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Which one are you defending? Find out live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Comment the one you'd defend 👇 Then do it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#debate",
+    "#wouldyourather",
+    "#hottakes",
+    "#pickone",
+    "#banter"
+  ]
+}
