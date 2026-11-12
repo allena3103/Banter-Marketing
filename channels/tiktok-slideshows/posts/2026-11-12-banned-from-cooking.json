@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-12-banned-from-cooking",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "bubble"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Kitchen opinions that will get you banned from cooking",
+      "highlight": "banned"
+    },
+    {
+      "role": "body",
+      "text": "Recipes are just suggestions.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Air fryers are overrated."
+    },
+    {
+      "role": "body",
+      "text": "Washing dishes while you cook is the only way.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Cooking for one isn't worth the effort."
+    },
+    {
+      "role": "body",
+      "text": "The microwave is a real cooking tool.",
+      "background": {
+        "type": "gradient",
+        "variant": "sky"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Bring the heat. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Which one gets you kicked out of the kitchen? 🍳 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#cooking",
+    "#cookingtok",
+    "#kitchen",
+    "#debate",
+    "#banter"
+  ]
+}
