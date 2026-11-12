@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-12-holiday-takes",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Holiday takes that will blow up the family group chat",
+      "highlight": "family group chat",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Christmas music before Thanksgiving is fine.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Secret Santa should be banned.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "New Year's Eve is the most overrated night of the year.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Halloween is the best holiday.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Re-gifting is completely acceptable.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "cta",
+      "text": "Bring it to the table. Debate it live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    }
+  ],
+  "caption": "Send this to the family group chat and watch 🍿 Then debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#holidays",
+    "#christmas",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
