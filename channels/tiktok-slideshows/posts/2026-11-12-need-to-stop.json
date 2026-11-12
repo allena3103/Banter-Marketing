@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-need-to-stop",
+  "account": "banter_main",
+  "hook_angle": "controversial",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CONTROVERSIAL",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Posting habits that need to stop",
+      "highlight": "need to stop"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Posting every single meal.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Couple accounts are cringe.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "Posting dozens of stories a day is too many.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Gym check-ins don't need a post.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Captions should be short.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Post less. Debate more. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Be honest, which one do you do? 📸 Debate it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#socialmedia",
+    "#instagram",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
