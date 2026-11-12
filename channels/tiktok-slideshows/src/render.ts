@@ -27,6 +27,17 @@ export async function renderSpecs(specs: Spec[]): Promise<string[]> {
       for (const [i, slide] of spec.slides.entries()) {
         await page.setContent(slideHtml(slide, spec.layout, i), { waitUntil: "load" });
         await page.evaluate(() => document.fonts.ready);
+        // Shrink any text block whose content is wider than its box
+        // (e.g. a long highlight kept on one line) until it fits.
+        await page.evaluate(() => {
+          for (const el of document.querySelectorAll<HTMLElement>("h1, h2, .card p, .bubble p")) {
+            let size = parseFloat(getComputedStyle(el).fontSize);
+            for (let i = 0; i < 30 && el.scrollWidth > el.clientWidth + 1; i++) {
+              size -= 3;
+              el.style.fontSize = `${size}px`;
+            }
+          }
+        });
         const file = resolve(dir, `slide_${String(i + 1).padStart(2, "0")}.png`);
         await page.screenshot({ path: file });
       }

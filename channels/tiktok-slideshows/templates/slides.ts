@@ -95,7 +95,7 @@ function highlighted(text: string, highlight?: string): string {
   const safe = esc(text);
   if (!highlight || !text.includes(highlight)) return safe;
   // Short highlights stay on one line so the pill doesn't split.
-  const nowrap = highlight.length <= 18 ? ' style="white-space:nowrap"' : "";
+  const nowrap = highlight.length <= 12 ? ' style="white-space:nowrap"' : "";
   return safe.replace(esc(highlight), `<span class="hl"${nowrap}>${esc(highlight)}</span>`);
 }
 
