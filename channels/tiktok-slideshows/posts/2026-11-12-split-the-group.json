@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-12-split-the-group",
+  "account": "banter_main",
+  "hook_angle": "challenge",
+  "style": "brand-gradient",
+  "layout": {
+    "hook": "center",
+    "body": "vote"
+  },
+  "referral_code": "TT-CHALLENGE",
+  "slides": [
+    {
+      "role": "hook",
+      "text": "Nightlife opinions that split the group",
+      "highlight": "split the group"
+    },
+    {
+      "role": "body",
+      "number": 1,
+      "text": "Going out on a weeknight is the move.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 2,
+      "text": "Clubs are overrated.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 3,
+      "text": "House parties beat bars.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "body",
+      "number": 4,
+      "text": "Getting ready is better than the actual night out.",
+      "subtext": "Agree or disagree?"
+    },
+    {
+      "role": "body",
+      "number": 5,
+      "text": "Leaving the party early is a skill.",
+      "subtext": "Agree or disagree?",
+      "background": {
+        "type": "gradient",
+        "variant": "navy"
+      }
+    },
+    {
+      "role": "cta",
+      "text": "Staying in tonight? Debate live. Join the waitlist.",
+      "screenshot": "brand/screenshots/vs-debate.png"
+    }
+  ],
+  "caption": "Which one would you defend to your friends? 🪩 Argue it live on Banter. Waitlist in bio.",
+  "hashtags": [
+    "#nightlife",
+    "#goingout",
+    "#hottakes",
+    "#debate",
+    "#banter"
+  ]
+}
